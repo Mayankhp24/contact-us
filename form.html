@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>FORM</title>
+</head>
+<style>
+input[type=number],[type=text], select {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid black;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background-color: #D3D3D3;
+  color: black;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 4px;
+  background-color: #D3D3D3;
+  color:black;
+  font-size: 16px;
+  resize: none;
+}
+</style>
+<body>
+<h1>CONTACT US</h1>
+<form method="post" action="" name="">
+<lable for="name">First Name</lable>
+<input type="text" name="n1" placeholder="Enter">
+<lable for="last name">Last Name</lable>
+<input type="text" name="n2" placeholder="Enter"><br>
+<br>
+<lable for="email">Email</lable>
+<input type="text" name="n3" placeholder="abcd@gmail.com">
+<lable for="Phone number">Phone No.</lable>
+<input type="number" name="n4" placeholder="1234567890"><br>
+<br>
+<lable for="Company/Institute name">Company/Institute Name</lable>
+<input type="text" name="n5" placeholder="abc.pvt">
+<lable for="Job title">Job Title<select name=""></lable>
+<option value="">Select</option>
+<option value="manager">Manager</option>
+<option value="Sales manager">Sales Manager</option>
+<option value="Customer Service Representative">Customer Service Representative</option>
+<option value="Executive Manager">Executive Manager</option>
+<option value="Student">Student</option>
+</select><br>
+<br>
+<br>
+<h3>Address</h3>
+<lable for="street">Street</lable>
+<input type="number" name="n7" placeholder="Ex-1">
+<lable for="city">City</lable>
+<input type="text" name="n8" placeholder="ex-CHANDIGARH">
+<lable for="state">State</lable>
+<input type="text" name="n9" placeholder="ex-PUNJAB">
+<lable for="postal code">Postal Code</lable>
+<input type="number" name="N1" placeholder="Enter">
+<lable for="country">Country<select name=""></lable>  &nbsp
+<option value="">select</option>
+<option value="India">India</option>
+<option value="Russia">Russia</option>
+<option value="Canada">Canada</option>
+<option value="USA">USA</option>
+<option value="Japan">Japan</option>
+<option value="Brazil">Brazil</option>
+</select><br>
+<br>
+<br>
+<br>
+<lable for="topic">Topic</lable>
+<textarea cols="30" rows="1"></textarea>
+<br>
+<input type="submit" valuer="register">
+</body>
+</html>
